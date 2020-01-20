@@ -36,10 +36,10 @@ nodes.Create(2)
 
 # Instantiates a PointToPointHelper object on the stack
 pointToPoint = ns.point_to_point.PointToPointHelper()
-# Tells the PointToPointHelper object to use the value ‚Äú5Mbps‚Äù (five megabits per second) as the ‚ÄúDataRate‚Äù 
+# Tells the PointToPointHelper object to use the value ì5Mbpsî (five megabits per second) as the ìDataRateî 
 # When it creates a PointToPointNetDevice object.
 pointToPoint.SetDeviceAttribute("DataRate", ns.core.StringValue("5Mbps"))
-# Tells the PointToPointHelper to use the value ‚Äú2ms‚Äù (two milliseconds) as the value of the transmission delay of every point 
+# Tells the PointToPointHelper to use the value ì2msî (two milliseconds) as the value of the transmission delay of every point 
 # To point channel it subsequently creates.
 pointToPoint.SetChannelAttribute("Delay", ns.core.StringValue("2ms"))
 
